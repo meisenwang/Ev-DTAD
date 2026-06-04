@@ -20,7 +20,7 @@ Ev-DTAD is a novel event-based object detection framework that combines compact 
 </div>
 
 ## 😀 Quick Start
-### ⚙️ 1.Installation & Requirements
+### ⚙️ 1. Installation & Requirements
 
 The package was tested only under Linux systems.
 
@@ -73,7 +73,7 @@ NOTE: It is recommended to increase the file descriptor limit before running
 the training (see [File Descriptors Limit](#file-descriptors-limit)).
 Otherwise, the training is likely to fail when using multiple data workers.
 
-### 💾 2 Dataset Preparation
+### 💾 2. Dataset Preparation
 
 Due to license restrictions we are unable to distribute pre-processed datasets.
 Therefore, the datasets need to be manually downloaded and pre-processed.
@@ -116,7 +116,7 @@ where
      pre-processing entrance
 
 
-### 🚀 3 Training Models From Scratch
+### 🚀 3. Training Models From Scratch
 
 The training of the Ev-DTAD models is staged:
 1. At the first stage, simple RT-DETR models are trained on random EBC video
@@ -209,7 +209,7 @@ Refer to [Model Directory Structure](#evlearn-model-structure) for details
 on the directory contents.
 
 
-#### ⭐️ 4 Evaluation
+#### ⭐️ 4. Evaluation
 
 To evaluate the COCO mAP metrics `ev-dtad` provides script:
 ```
