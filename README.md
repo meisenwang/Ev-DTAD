@@ -20,7 +20,7 @@ Ev-DTAD is a novel event-based object detection framework that combines compact 
 </div>
 
 ## 😀 Quick Start
-### ⚙️ Installation & Requirements
+### ⚙️ 1.Installation & Requirements
 
 The package was tested only under Linux systems.
 
@@ -73,7 +73,7 @@ NOTE: It is recommended to increase the file descriptor limit before running
 the training (see [File Descriptors Limit](#file-descriptors-limit)).
 Otherwise, the training is likely to fail when using multiple data workers.
 
-### Ev-DTAD Results Reproduction
+### 2.Ev-DTAD Results Reproduction
 
 This section describes how to reproduce the Ev-DTAD paper results. The
 sequence of steps can be summarized as follows:
