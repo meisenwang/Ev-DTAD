@@ -14,9 +14,10 @@ This is the implementation of *Rethinking Event-Based Object Detection through R
 ### 📋 To-Do List
 - [ ] [around 2026.6.8] Release the code, data and model
 
-# Ev-DTAD
-
-Ev-DTAD is a novel event-based object detection framework that combines compact temporal event encoding with temporal-relational feature reasoning. Our approach introduces HTA-RGB, a hierarchical temporal aggregation representation, and FHTF, a frequency-aware hypergraph temporal fusion module, to jointly capture intra-/inter-window event dynamics and high-order feature dependencies. Ev-DTAD achieves state-of-the-art performance on Gen1, Gen4/1Mpx, and eTraM event-based detection benchmarks while maintaining competitive real-time inference capabilities.
+### ![image](https://github.com/user-attachments/assets/1ae19de2-b18b-4b0d-a206-19f0666757fb) About
+Ev-DTAD is a novel event-based object detection framework that combines compact temporal event encoding with temporal-relational feature reasoning. Our approach introduces HTA-RGB, a hierarchical temporal aggregation representation, and FHTF, a frequency-aware hypergraph temporal fusion module, to jointly capture intra-/inter-window event dynamics and high-order feature dependencies.
+  <img src="assets/Thumbnail.png" width="80%" higth="80%">
+</div>
 
 The instructions below detail how to setup the package and reproduce the
 results from our paper.
