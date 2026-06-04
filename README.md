@@ -241,7 +241,10 @@ saved. When the evaluation is complete, the COCO scores will be printed to the
 terminal and saved in the model's `evals/` subdirectory
 (cf. [Model Directory Structure](#evlearn-model-structure)).
 
-## Default Paths and Environment Variables
+
+## 📃 Notes & Reference
+
+### 1. Default Paths and Environment Variables
 
 By default, `ev-dtad` will:
 - search for data under the `./data` directory
@@ -250,10 +253,7 @@ By default, `ev-dtad` will:
 These paths can be changed by setting `EVLEARN_DATA` and `EVLEARN_OUTDIR`
 environment variables before running the training/evaluation scripts
 (e.g., `export EVLEARN_DATA=/path/to/data/root`).
-
-
-## 📃 Notes & Reference
-### 1. evlearn Model Structure
+### 2. evlearn Model Structure
 
 `evlearn` saves each model in a separate directory that contains:
  - `MODEL/config.json` -- model architecture, training, and evaluation
@@ -269,7 +269,7 @@ configurations per model directory -- models with different configurations must
 be saved in separate directories.
 
 
-### 2. File Descriptors Limit
+### 3. File Descriptors Limit
 
 Parallel data loading may open too many file descriptors, which can cause
 training to fail with errors like:
