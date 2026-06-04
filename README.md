@@ -241,6 +241,31 @@ saved. When the evaluation is complete, the COCO scores will be printed to the
 terminal and saved in the model's `evals/` subdirectory
 (cf. [Model Directory Structure](#evlearn-model-structure)).
 
+## Default Paths and Environment Variables
+
+By default, `ev-dtad` will:
+- search for data under the `./data` directory
+- save models under the `./outdir` directory
+
+These paths can be changed by setting `EVLEARN_DATA` and `EVLEARN_OUTDIR`
+environment variables before running the training/evaluation scripts
+(e.g., `export EVLEARN_DATA=/path/to/data/root`).
+
+## evlearn Model Structure
+
+`evlearn` saves each model in a separate directory that contains:
+ - `MODEL/config.json` -- model architecture, training, and evaluation
+    configurations
+ - `MODEL/net_*.pth`  -- PyTorch weights of model networks
+ - `MODEL/opt_*.pth`  -- PyTorch weights of training optimizers
+ - `MODEL/shed_*.pth` -- PyTorch weights of training schedulers
+ - `MODEL/checkpoints/` -- training checkpoints
+ - `MODEL/evals/`     -- evaluation results
+
+NOTE: To prevent configuration conflicts, `evlearn` enforces unique
+configurations per model directory -- models with different configurations must
+be saved in separate directories.
+
 ### 📚 Citation
 If you use ScaleEvent in your research, please use the following BibTeX entry.
 
