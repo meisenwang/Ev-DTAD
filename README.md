@@ -26,6 +26,10 @@
   </a>
 </p>
 
+<p align="center">
+  <img src="assets/mAPvsruntime.png" alt="Illustration of performance" width="95%">
+</p>
+
 ### 📋 To-Do List
 - [ ] [around 2026.6.8] Release the code, data and model
 
