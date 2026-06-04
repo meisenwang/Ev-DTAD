@@ -256,7 +256,7 @@ terminal and saved in the model's `evals/` subdirectory
 
 ## 📜 Notes & Reference
 
-### 🎯 Default Paths and Environment Variables
+### 1. Default Paths and Environment Variables
 
 By default, `ev-dtad` will:
 - search for data under the `./data` directory
@@ -267,7 +267,7 @@ environment variables before running the training/evaluation scripts
 (e.g., `export EVLEARN_DATA=/path/to/data/root`).
 
 
-### 📃 evlearn Model Structure
+### 2. evlearn Model Structure
 
 `evlearn` saves each model in a separate directory that contains:
  - `MODEL/config.json` -- model architecture, training, and evaluation
@@ -283,7 +283,7 @@ configurations per model directory -- models with different configurations must
 be saved in separate directories.
 
 
-### 📎 File Descriptors Limit
+### 3. File Descriptors Limit
 
 Parallel data loading may open too many file descriptors, which can cause
 training to fail with errors like:
@@ -304,7 +304,7 @@ ulimit -n 2048
 This command increases the limit to 2048 file descriptors. You may need to
 increase it to higher values if you increase the number of data workers.
 
-### 📚 Citation
+## 📚 Citation
 If you use ScaleEvent in your research, please use the following BibTeX entry.
 
 ```
