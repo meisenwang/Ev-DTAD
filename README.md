@@ -1,4 +1,21 @@
-# Rethinking Event-Based Object Detection through Representation-Level Temporal Aggregation and Model-Level Hypergraph Reasoning
+<div align="center">
+  <h3 align="center"><strong>Rethinking Event-Based Object Detection through Representation-Level Temporal Aggregation and Model-Level Hypergraph Reasoning </strong></h3>
+    <p align="center">
+    <a>Meisen Wang</a><sup>1</sup>&nbsp;&nbsp;
+    <a>Hao Deng</a><sup>1</sup>&nbsp;&nbsp;
+    <a>Wei Bao</a><sup>2</sup>&nbsp;&nbsp;
+    <a>MaYuanxiao</a><sup>3</sup>&nbsp;&nbsp;
+    <a>Chengjie Wang</a><sup>4</sup>&nbsp;&nbsp;
+    <a>Zhiqiang Tian</a><sup>1</sup>&nbsp;&nbsp;
+    <a>Shaoyi Du</a><sup>1</sup>&nbsp;&nbsp;
+    <a>Siqi Li</a><sup>2</sup>&nbsp;&nbsp;
+    <br>
+    <sup>1</sup>Xi'an Jiaotong University&nbsp;&nbsp;&nbsp;
+    <sup>2</sup>Tsinghua University&nbsp;&nbsp;&nbsp;
+    <sup>3</sup>China Mobile System Integration&nbsp;&nbsp;&nbsp;
+    <sup>4</sup>Inner Mongolia Agricultural University&nbsp;&nbsp;&nbsp;
+</div>
+
 <p align="center">
   <a href="https://arxiv.org/abs/2605.08825">
     <img src="https://img.shields.io/badge/arXiv-2605.08825-b31b1b.svg" alt="arXiv:2605.08825">
@@ -9,15 +26,11 @@
   </a>
 </p>
 
-This is the implementation of *Rethinking Event-Based Object Detection through Representation-Level Temporal Aggregation and Model-Level Hypergraph Reasoning*.
-
 ### 📋 To-Do List
 - [ ] [around 2026.6.8] Release the code, data and model
 
 ### ![image](https://github.com/user-attachments/assets/1ae19de2-b18b-4b0d-a206-19f0666757fb) About
 Ev-DTAD is a novel event-based object detection framework that combines compact temporal event encoding with temporal-relational feature reasoning. Our approach introduces HTA-RGB, a hierarchical temporal aggregation representation, and FHTF, a frequency-aware hypergraph temporal fusion module, to jointly capture intra-/inter-window event dynamics and high-order feature dependencies.
-  <img src="assets/Thumbnail.png" width="80%" higth="80%">
-</div>
 
 ## 😀 Quick Start
 ### ⚙️ 1. Installation & Requirements
@@ -216,7 +229,6 @@ To evaluate the COCO mAP metrics `ev-dtad` provides script:
 scripts/eval_model_video.py
 ```
 
-
 To evaluate the performance of the Ev-DTAD model, one can run
 ```bash
 python3 scripts/eval_model_video.py PATH_TO_MODEL_DIRECTORY --data-name video
@@ -226,3 +238,14 @@ saved. When the evaluation is complete, the COCO scores will be printed to the
 terminal and saved in the model's `evals/` subdirectory
 (cf. [Model Directory Structure](#evlearn-model-structure)).
 
+### 📚 Citation
+If you use ScaleEvent in your research, please use the following BibTeX entry.
+
+```
+@article{wang2026rethinking,
+  title={Rethinking Event-Based Object Dtection through Representation-Level Temporal Aggregation and Model-Level Hypergraph Reasoning},
+  author={Wang, Meisen and Deng, Hao and Bao, Wei and Yuanxiao, Ma and Wang, Chengjie and Tian, Zhiqiang and Du, Shaoyi and Li, Siqi},
+  journal={arXiv preprint arXiv:2605.08825},
+  year={2026}
+}
+```
