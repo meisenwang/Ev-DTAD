@@ -35,7 +35,7 @@ Ev-DTAD is a novel event-based object detection framework that combines compact 
 ## 🏆 Main Results
 
 
-## 🚀 Quick Start
+## 😊 Quick Start
 ### ⚙️ 1. Installation & Requirements
 
 The package was tested only under Linux systems.
@@ -242,7 +242,7 @@ terminal and saved in the model's `evals/` subdirectory
 (cf. [Model Directory Structure](#evlearn-model-structure)).
 
 
-## 📃 Notes & Reference
+## 📜 Notes & Reference
 
 ### 🎯 Default Paths and Environment Variables
 
