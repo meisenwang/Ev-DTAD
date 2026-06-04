@@ -19,10 +19,6 @@ Ev-DTAD is a novel event-based object detection framework that combines compact 
   <img src="assets/Thumbnail.png" width="80%" higth="80%">
 </div>
 
-The instructions below detail how to setup the package and reproduce the
-results from our paper.
-
-
 ## 😀 Quick Start
 ### ⚙️ Installation & Requirements
 
