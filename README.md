@@ -251,7 +251,9 @@ These paths can be changed by setting `EVLEARN_DATA` and `EVLEARN_OUTDIR`
 environment variables before running the training/evaluation scripts
 (e.g., `export EVLEARN_DATA=/path/to/data/root`).
 
-## evlearn Model Structure
+
+## 📃 Notes & Reference
+### 1. evlearn Model Structure
 
 `evlearn` saves each model in a separate directory that contains:
  - `MODEL/config.json` -- model architecture, training, and evaluation
@@ -265,6 +267,28 @@ environment variables before running the training/evaluation scripts
 NOTE: To prevent configuration conflicts, `evlearn` enforces unique
 configurations per model directory -- models with different configurations must
 be saved in separate directories.
+
+
+### 2. File Descriptors Limit
+
+Parallel data loading may open too many file descriptors, which can cause
+training to fail with errors like:
+
+```
+  File "lib/python3.10/multiprocessing/reduction.py", line 164, in recvfds
+      raise RuntimeError('received %d items of ancdata' %
+              RuntimeError: received 0 items of ancdata
+```
+
+If this happens, increase the limit on simultaneously open file descriptors.
+For example, on Linux systems:
+
+```bash
+ulimit -n 2048
+```
+
+This command increases the limit to 2048 file descriptors. You may need to
+increase it to higher values if you increase the number of data workers.
 
 ### 📚 Citation
 If you use ScaleEvent in your research, please use the following BibTeX entry.
