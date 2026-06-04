@@ -73,26 +73,13 @@ NOTE: It is recommended to increase the file descriptor limit before running
 the training (see [File Descriptors Limit](#file-descriptors-limit)).
 Otherwise, the training is likely to fail when using multiple data workers.
 
-### 💾 2.Ev-DTAD Results Reproduction
-
-This section describes how to reproduce the Ev-DTAD paper results. The
-sequence of steps can be summarized as follows:
-
-1. Download and pre-process Prophesee data.
-2. [Optional] Download pre-trained models.
-3. [Optional] Train models from scratch:
-    - Train RT-DETR models on single EBC frames
-    - Train Ev-DTAD models on EBC videos
-4. Perform model evaluation.
-
-
-#### 2.1 Dataset Preparation
+### 💾 2 Dataset Preparation
 
 Due to license restrictions we are unable to distribute pre-processed datasets.
 Therefore, the datasets need to be manually downloaded and pre-processed.
 
 
-##### 2.1.1 Dataset Download
+#### 2.1 Dataset Download
 
 The Gen1 Prophesee dataset can be downloaded from
 [this link](https://www.prophesee.ai/2020/01/24/prophesee-gen1-automotive-detection-dataset/).
@@ -103,7 +90,7 @@ The Gen4/1MPX Prophesee dataset can be downloaded from
 The eTraM Prophesee dataset can be downloaded from
 [this link](https://docs.google.com/forms/d/e/1FAIpQLSfH2LI5oqWWfose-pBC3dsbaAMvRQuv0BI93njV_5wQjYx83w/viewform?pli=1).
 
-##### 2.1.2 Dataset Pre-processing
+#### 2.2 Dataset Pre-processing
 
 To preprocess the datasets into a HTA format, the `scripts/data/psee_to_htargb.py` script can be used.
 
@@ -129,7 +116,7 @@ where
      pre-processing entrance
 
 
-#### 2.2 Training Models From Scratch
+### 🚀 3 Training Models From Scratch
 
 The training of the Ev-DTAD models is staged:
 1. At the first stage, simple RT-DETR models are trained on random EBC video
@@ -138,7 +125,7 @@ The training of the Ev-DTAD models is staged:
    using RT-DETR from stage 1 as an object detection backbone.
 
 
-##### 🚀 2.2.1 Training RT-DETR models
+##### 3.1 Training RT-DETR models
 
 `Ev-DTAD` provides several scripts to train the RT-DETR models:
 
@@ -177,7 +164,7 @@ Refer to [Model Directory Structure](#evlearn-model-structure) for details
 on the directory contents.
 
 
-##### 2.2.2 Training Ev-DTAD models
+##### 3.2 Training Ev-DTAD models
 
 The Ev-DTAD models can be trained with the following scripts:
 
@@ -222,7 +209,7 @@ Refer to [Model Directory Structure](#evlearn-model-structure) for details
 on the directory contents.
 
 
-#### ⭐️ 3 Evaluation
+#### ⭐️ 4 Evaluation
 
 To evaluate the COCO mAP metrics `ev-dtad` provides script:
 ```
