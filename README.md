@@ -23,17 +23,18 @@ The instructions below detail how to setup the package and reproduce the
 results from our paper.
 
 
-# Installation & Requirements
+## 😀 Quick Start
+### ⚙️ Installation & Requirements
 
 The package was tested only under Linux systems.
 
-## Environment
+#### Environment
 
 The development environment is based on the
 `pytorch/pytorch:2.2.2-cuda11.8-cudnn8-runtime` Docker container. You can set
 up your environment using either Docker or Conda.
 
-### Option 1: Docker Setup
+##### Option 1: Docker Setup
 
 If using Docker (`pytorch/pytorch:2.2.2-cuda11.8-cudnn8-runtime`), create a
 Python virtual environment inside the container to avoid package conflicts:
@@ -43,7 +44,7 @@ python3 -m venv --system-site-packages ~/.venv/ev-dtad
 source ~/.venv/ev-dtad/bin/activate
 ```
 
-### Option 2: Conda Setup
+##### Option 2: Conda Setup
 
 Alternatively, you can create a Conda environment using our provided
 configuration:
@@ -53,7 +54,7 @@ conda env create -f contrib/conda_env.yml
 conda activate ev-dtad
 ```
 
-## Requirements
+#### Requirements
 
 1. COCO evaluation metrics by Prophesee `psee_adt`.
 Install the bundled package from `psee_adt-master`.
@@ -63,7 +64,7 @@ Install the bundled package from `psee_adt-master`.
 pip install -r requirements.txt
 ```
 
-## Installation
+#### Installation
 
 ```bash
 pip install -e .
@@ -76,7 +77,7 @@ NOTE: It is recommended to increase the file descriptor limit before running
 the training (see [File Descriptors Limit](#file-descriptors-limit)).
 Otherwise, the training is likely to fail when using multiple data workers.
 
-# Ev-DTAD Results Reproduction
+### Ev-DTAD Results Reproduction
 
 This section describes how to reproduce the Ev-DTAD paper results. The
 sequence of steps can be summarized as follows:
@@ -89,13 +90,13 @@ sequence of steps can be summarized as follows:
 4. Perform model evaluation.
 
 
-## 1. Dataset Preparation
+#### 💾 1. Dataset Preparation
 
 Due to license restrictions we are unable to distribute pre-processed datasets.
 Therefore, the datasets need to be manually downloaded and pre-processed.
 
 
-### 1.1 Dataset Download
+##### 1.1 Dataset Download
 
 The Gen1 Prophesee dataset can be downloaded from
 [this link](https://www.prophesee.ai/2020/01/24/prophesee-gen1-automotive-detection-dataset/).
@@ -106,7 +107,7 @@ The Gen4/1MPX Prophesee dataset can be downloaded from
 The eTraM Prophesee dataset can be downloaded from
 [this link](https://docs.google.com/forms/d/e/1FAIpQLSfH2LI5oqWWfose-pBC3dsbaAMvRQuv0BI93njV_5wQjYx83w/viewform?pli=1).
 
-### 1.2 Dataset Pre-processing
+##### 1.2 Dataset Pre-processing
 
 To preprocess the datasets into a HTA format, the `scripts/data/psee_to_htargb.py` script can be used.
 
@@ -132,7 +133,7 @@ where
      pre-processing entrance
 
 
-## 2 Training Models From Scratch
+#### 2 Training Models From Scratch
 
 The training of the Ev-DTAD models is staged:
 1. At the first stage, simple RT-DETR models are trained on random EBC video
@@ -141,7 +142,7 @@ The training of the Ev-DTAD models is staged:
    using RT-DETR from stage 1 as an object detection backbone.
 
 
-### 2.1 Training RT-DETR models
+##### 🚀 2.1 Training RT-DETR models
 
 `Ev-DTAD` provides several scripts to train the RT-DETR models:
 
@@ -180,7 +181,7 @@ Refer to [Model Directory Structure](#evlearn-model-structure) for details
 on the directory contents.
 
 
-### 2.2 Training Ev-DTAD models
+##### 2.2 Training Ev-DTAD models
 
 The Ev-DTAD models can be trained with the following scripts:
 
@@ -225,7 +226,7 @@ Refer to [Model Directory Structure](#evlearn-model-structure) for details
 on the directory contents.
 
 
-## 3 Evaluation
+#### ⭐️ 3 Evaluation
 
 To evaluate the COCO mAP metrics `ev-dtad` provides script:
 ```
