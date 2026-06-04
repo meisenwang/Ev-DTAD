@@ -141,7 +141,7 @@ The training of the Ev-DTAD models is staged:
    using RT-DETR from stage 1 as an object detection backbone.
 
 
-##### 3.1 Training RT-DETR models
+#### 3.1 Training RT-DETR models
 
 `Ev-DTAD` provides several scripts to train the RT-DETR models:
 
@@ -180,7 +180,7 @@ Refer to [Model Directory Structure](#evlearn-model-structure) for details
 on the directory contents.
 
 
-##### 3.2 Training Ev-DTAD models
+#### 3.2 Training Ev-DTAD models
 
 The Ev-DTAD models can be trained with the following scripts:
 
@@ -225,7 +225,7 @@ Refer to [Model Directory Structure](#evlearn-model-structure) for details
 on the directory contents.
 
 
-#### ⭐️ 4. Evaluation
+### ⭐️ 4. Evaluation
 
 To evaluate the COCO mAP metrics `Ev-DTAD` provides script:
 ```
