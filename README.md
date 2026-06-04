@@ -227,7 +227,7 @@ on the directory contents.
 
 #### ⭐️ 4. Evaluation
 
-To evaluate the COCO mAP metrics `ev-dtad` provides script:
+To evaluate the COCO mAP metrics `Ev-DTAD` provides script:
 ```
 scripts/eval_model_video.py
 ```
