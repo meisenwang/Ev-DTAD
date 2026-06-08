@@ -28,6 +28,7 @@
 
 ### 🔥 Updata
 [2026.6.4] Update the README and release the code
+
 [2026.6.8] Release the model
 
 ### ![image](https://github.com/user-attachments/assets/1ae19de2-b18b-4b0d-a206-19f0666757fb) About
