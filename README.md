@@ -124,7 +124,7 @@ To preprocess the datasets into a HTA format, the `scripts/data/psee_to_hta.py` 
 
 To pre-process the Gen1 dataset, one can use the following command:
 ```bash
-python3 scripts/data/psee_to_htargb.py \
+python3 scripts/data/psee_to_hta.py \
       --dataset dataset_name \
       --src_root SRC \
       --out_root DST \
