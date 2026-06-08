@@ -237,49 +237,6 @@ Refer to [Model Directory Structure](#evlearn-model-structure) for details
 on the directory contents.
 
 
-### 3.3 
-
-<div align="center">
-
-<table>
-<tr>
-  <th><sup> </sup></th>
-  <th><sup>Ev-DTAD-T</sup></th>
-  <th><sup>Ev-DTAD-B</sup></th>
-</tr>
-
-<tr>
-  <td><sup><b>Gen1 (<a>DATASET</a>)</b></sup></td>
-
-  <td><sup><a href="https://drive.google.com/drive/folders/198BZTdB6ZjwSn81XEqHYZdbNCe_qIMF8?usp=drive_link">DOWNLOAD</a></sup></td>
-
-  <td><sup><a href="https://drive.google.com/drive/folders/1KoiaUeJ1Vk_OK_gdcc6cw4KAEf5kkQ1o?usp=drive_link">DOWNLOAD</a></sup></td>
-
-</tr>
-
-<tr>
-  <td><sup><b>1Mpx/Gen4 (<a>DATASET</a>)</b></sup></td>
-
-  <td><sup><a href="https://drive.google.com/drive/folders/1lgurYZB8XJwiAlEYyYKBPh5hEvJDYvhQ?usp=drive_link">DOWNLOAD</a></sup></td>
-
-  <td><sup><a href="https://drive.google.com/drive/folders/1eQaYYUuBC2rxhicgW9vKKsXqhsodvo_I?usp=drive_link">DOWNLOAD</a></sup></td>
-
-<tr>
-  <td><sup><b>eTraM (<a>DATASET</a>)</b></sup></td>
-
-  <td><sup><a href="https://drive.google.com/drive/folders/1vW6qgJ_D7oBlEa5tvoCyaMI9FqJdNwF_?usp=drive_link">DOWNLOAD</a></sup></td>
-
-  <td><sup><a href="https://drive.google.com/drive/folders/167ekZOYN_cAhaQ8f8tJwNlRo5V47TU_f?usp=drive_link">DOWNLOAD</a></sup></td>
-  
-</tr>
-
-
-</table>
-
-</div>
-
-
-
 ### ⭐️ 4. Evaluation
 
 To evaluate the COCO mAP metrics `Ev-DTAD` provides script:
@@ -295,6 +252,47 @@ where `PATH_TO_MODEL_DIRECTORY` is a path where the trained Ev-DTAD model is
 saved. When the evaluation is complete, the COCO scores will be printed to the
 terminal and saved in the model's `evals/` subdirectory
 (cf. [Model Directory Structure](#evlearn-model-structure)).
+
+The pre-trained models for all datasets are available:
+
+<div align="center">
+
+<table>
+<tr>
+  <th><sup> </sup></th>
+  <th><sup>Ev-DTAD-T</sup></th>
+  <th><sup>Ev-DTAD-B</sup></th>
+</tr>
+
+<tr>
+  <td><sup><b>Gen1 </b></sup></td>
+
+  <td><sup><a href="https://drive.google.com/drive/folders/198BZTdB6ZjwSn81XEqHYZdbNCe_qIMF8?usp=drive_link">DOWNLOAD</a></sup></td>
+
+  <td><sup><a href="https://drive.google.com/drive/folders/1KoiaUeJ1Vk_OK_gdcc6cw4KAEf5kkQ1o?usp=drive_link">DOWNLOAD</a></sup></td>
+
+</tr>
+
+<tr>
+  <td><sup><b>1Mpx/Gen4 </b></sup></td>
+
+  <td><sup><a href="https://drive.google.com/drive/folders/1lgurYZB8XJwiAlEYyYKBPh5hEvJDYvhQ?usp=drive_link">DOWNLOAD</a></sup></td>
+
+  <td><sup><a href="https://drive.google.com/drive/folders/1eQaYYUuBC2rxhicgW9vKKsXqhsodvo_I?usp=drive_link">DOWNLOAD</a></sup></td>
+
+<tr>
+  <td><sup><b>eTraM </b></sup></td>
+
+  <td><sup><a href="https://drive.google.com/drive/folders/1vW6qgJ_D7oBlEa5tvoCyaMI9FqJdNwF_?usp=drive_link">DOWNLOAD</a></sup></td>
+
+  <td><sup><a href="https://drive.google.com/drive/folders/167ekZOYN_cAhaQ8f8tJwNlRo5V47TU_f?usp=drive_link">DOWNLOAD</a></sup></td>
+  
+</tr>
+
+
+</table>
+
+</div>
 
 
 ## 📜 Notes & Reference
