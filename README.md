@@ -237,6 +237,49 @@ Refer to [Model Directory Structure](#evlearn-model-structure) for details
 on the directory contents.
 
 
+### 3.3 
+
+<div align="center">
+
+<table>
+<tr>
+  <th><sup> </sup></th>
+  <th><sup>Ev-DTAD-T</sup></th>
+  <th><sup>Ev-DTAD-B</sup></th>
+</tr>
+
+<tr>
+  <td><sup><b>Gen1 (<a href="https://drive.google.com/file/d/1meGdq6Km6GjUPgTmDLi2p1yjPn87G-6_/view?usp=drive_link">DATASET</a>)</b></sup></td>
+
+  <td><sup><a href="https://drive.google.com/file/d/1HVT6jo2qO0yB36x76_ldZoibHshHjC4A/view?usp=drive_link">DOWNLOAD</a></sup></td>
+
+  <td><sup><a href="https://drive.google.com/file/d/1Z3HJ-dj6U96-1tCMdvptPVq04njNiVmb/view?usp=drive_link">DOWNLOAD</a></sup></td>
+
+</tr>
+
+<tr>
+  <td><sup><b>1Mpx/Gen4 (<a href="https://drive.google.com/file/d/1N447dreP6PUWsKZMY7Ze61UkrHM-2J3g/view?usp=drive_link">DATASET</a>)</b></sup></td>
+
+  <td><sup><a href="https://drive.google.com/file/d/1rdcU_b-VRrBSjm4WEyEEL_tffq4FL0m-/view?usp=drive_link">DOWNLOAD</a></sup></td>
+
+  <td><sup><a href="https://drive.google.com/file/d/15ZZIqLMkRC-HUC6gw1zlYxaD1yvGqUSM/view?usp=drive_link">DOWNLOAD</a></sup></td>
+
+<tr>
+  <td><sup><b>eTraM (<a href="https://drive.google.com/file/d/1N447dreP6PUWsKZMY7Ze61UkrHM-2J3g/view?usp=drive_link">DATASET</a>)</b></sup></td>
+
+  <td><sup><a href="https://drive.google.com/file/d/1rdcU_b-VRrBSjm4WEyEEL_tffq4FL0m-/view?usp=drive_link">DOWNLOAD</a></sup></td>
+
+  <td><sup><a href="https://drive.google.com/file/d/15ZZIqLMkRC-HUC6gw1zlYxaD1yvGqUSM/view?usp=drive_link">DOWNLOAD</a></sup></td>
+  
+</tr>
+
+
+</table>
+
+</div>
+
+
+
 ### ⭐️ 4. Evaluation
 
 To evaluate the COCO mAP metrics `Ev-DTAD` provides script:
