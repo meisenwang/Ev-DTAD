@@ -267,9 +267,9 @@ on the directory contents.
 <tr>
   <td><sup><b>eTraM (<a href="https://drive.google.com/file/d/1N447dreP6PUWsKZMY7Ze61UkrHM-2J3g/view?usp=drive_link">DATASET</a>)</b></sup></td>
 
-  <td><sup><a href="https://drive.google.com/file/d/1rdcU_b-VRrBSjm4WEyEEL_tffq4FL0m-/view?usp=drive_link">DOWNLOAD</a></sup></td>
+  <td><sup><a href="https://drive.google.com/drive/folders/1vW6qgJ_D7oBlEa5tvoCyaMI9FqJdNwF_?usp=drive_link">DOWNLOAD</a></sup></td>
 
-  <td><sup><a href="https://drive.google.com/file/d/15ZZIqLMkRC-HUC6gw1zlYxaD1yvGqUSM/view?usp=drive_link">DOWNLOAD</a></sup></td>
+  <td><sup><a href="https://drive.google.com/drive/folders/1vW6qgJ_D7oBlEa5tvoCyaMI9FqJdNwF_?usp=drive_link">DOWNLOAD</a></sup></td>
   
 </tr>
 
