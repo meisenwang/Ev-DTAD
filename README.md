@@ -26,7 +26,7 @@
   </a>
 </p>
 
-## 🔥 Updata
+## 🔥 News
 [2026.6.4] Update the README and release the code
 
 [2026.6.8] Release the model
