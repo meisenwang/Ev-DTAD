@@ -249,27 +249,27 @@ on the directory contents.
 </tr>
 
 <tr>
-  <td><sup><b>Gen1 (<a href="https://drive.google.com/file/d/1meGdq6Km6GjUPgTmDLi2p1yjPn87G-6_/view?usp=drive_link">DATASET</a>)</b></sup></td>
+  <td><sup><b>Gen1 (<a>DATASET</a>)</b></sup></td>
 
-  <td><sup><a href="https://drive.google.com/file/d/1HVT6jo2qO0yB36x76_ldZoibHshHjC4A/view?usp=drive_link">DOWNLOAD</a></sup></td>
+  <td><sup><a href="https://drive.google.com/drive/folders/198BZTdB6ZjwSn81XEqHYZdbNCe_qIMF8?usp=drive_link">DOWNLOAD</a></sup></td>
 
-  <td><sup><a href="https://drive.google.com/file/d/1Z3HJ-dj6U96-1tCMdvptPVq04njNiVmb/view?usp=drive_link">DOWNLOAD</a></sup></td>
+  <td><sup><a href="https://drive.google.com/drive/folders/1KoiaUeJ1Vk_OK_gdcc6cw4KAEf5kkQ1o?usp=drive_link">DOWNLOAD</a></sup></td>
 
 </tr>
 
 <tr>
-  <td><sup><b>1Mpx/Gen4 (<a href="https://drive.google.com/file/d/1N447dreP6PUWsKZMY7Ze61UkrHM-2J3g/view?usp=drive_link">DATASET</a>)</b></sup></td>
+  <td><sup><b>1Mpx/Gen4 (<a>DATASET</a>)</b></sup></td>
 
-  <td><sup><a href="https://drive.google.com/file/d/1rdcU_b-VRrBSjm4WEyEEL_tffq4FL0m-/view?usp=drive_link">DOWNLOAD</a></sup></td>
+  <td><sup><a href="https://drive.google.com/drive/folders/1lgurYZB8XJwiAlEYyYKBPh5hEvJDYvhQ?usp=drive_link">DOWNLOAD</a></sup></td>
 
-  <td><sup><a href="https://drive.google.com/file/d/15ZZIqLMkRC-HUC6gw1zlYxaD1yvGqUSM/view?usp=drive_link">DOWNLOAD</a></sup></td>
+  <td><sup><a href="https://drive.google.com/drive/folders/1eQaYYUuBC2rxhicgW9vKKsXqhsodvo_I?usp=drive_link">DOWNLOAD</a></sup></td>
 
 <tr>
-  <td><sup><b>eTraM (<a href="https://drive.google.com/file/d/1N447dreP6PUWsKZMY7Ze61UkrHM-2J3g/view?usp=drive_link">DATASET</a>)</b></sup></td>
+  <td><sup><b>eTraM (<a>DATASET</a>)</b></sup></td>
 
   <td><sup><a href="https://drive.google.com/drive/folders/1vW6qgJ_D7oBlEa5tvoCyaMI9FqJdNwF_?usp=drive_link">DOWNLOAD</a></sup></td>
 
-  <td><sup><a href="https://drive.google.com/drive/folders/1vW6qgJ_D7oBlEa5tvoCyaMI9FqJdNwF_?usp=drive_link">DOWNLOAD</a></sup></td>
+  <td><sup><a href="https://drive.google.com/drive/folders/167ekZOYN_cAhaQ8f8tJwNlRo5V47TU_f?usp=drive_link">DOWNLOAD</a></sup></td>
   
 </tr>
 
