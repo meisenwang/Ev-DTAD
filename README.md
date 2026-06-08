@@ -259,9 +259,9 @@ The pre-trained models for all datasets are available:
 
 <table align="center" width="100%" cellpadding="12">
 <tr>
-  <th align="center" width="280px"><sup> </sup></th>
-  <th align="center" width="280px"><sup>Ev-DTAD-T</sup></th>
-  <th align="center" width="280px"><sup>Ev-DTAD-B</sup></th>
+  <th align="center" width="180px"><sup> </sup></th>
+  <th align="center" width="180px"><sup>Ev-DTAD-T</sup></th>
+  <th align="center" width="180px"><sup>Ev-DTAD-B</sup></th>
 </tr>
 
 <tr>
