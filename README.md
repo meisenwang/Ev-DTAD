@@ -27,7 +27,7 @@
 </p>
 
 ### 📋 To-Do List
-- [ ] [around 2026.6.8] Release the model
+- [x] [2026.6.8] Release the model
 - [x] [2026.6.4] Update the README and release the code
 
 ### ![image](https://github.com/user-attachments/assets/1ae19de2-b18b-4b0d-a206-19f0666757fb) About
@@ -257,38 +257,30 @@ The pre-trained models for all datasets are available:
 
 <div align="center">
 
-<table>
+<table align="center" width="85%">
 <tr>
-  <th><sup> </sup></th>
-  <th><sup>Ev-DTAD-T</sup></th>
-  <th><sup>Ev-DTAD-B</sup></th>
+  <th align="center" width="33%"><sup> </sup></th>
+  <th align="center" width="33%"><sup>Ev-DTAD-T</sup></th>
+  <th align="center" width="33%"><sup>Ev-DTAD-B</sup></th>
 </tr>
 
 <tr>
-  <td><sup><b>Gen1 </b></sup></td>
-
-  <td><sup><a href="https://drive.google.com/drive/folders/198BZTdB6ZjwSn81XEqHYZdbNCe_qIMF8?usp=drive_link">DOWNLOAD</a></sup></td>
-
-  <td><sup><a href="https://drive.google.com/drive/folders/1KoiaUeJ1Vk_OK_gdcc6cw4KAEf5kkQ1o?usp=drive_link">DOWNLOAD</a></sup></td>
-
+  <td align="center"><sup><b>Gen1</b></sup></td>
+  <td align="center"><sup><a href="https://drive.google.com/drive/folders/198BZTdB6ZjwSn81XEqHYZdbNCe_qIMF8?usp=drive_link">DOWNLOAD</a></sup></td>
+  <td align="center"><sup><a href="https://drive.google.com/drive/folders/1KoiaUeJ1Vk_OK_gdcc6cw4KAEf5kkQ1o?usp=drive_link">DOWNLOAD</a></sup></td>
 </tr>
 
 <tr>
-  <td><sup><b>1Mpx/Gen4 </b></sup></td>
-
-  <td><sup><a href="https://drive.google.com/drive/folders/1lgurYZB8XJwiAlEYyYKBPh5hEvJDYvhQ?usp=drive_link">DOWNLOAD</a></sup></td>
-
-  <td><sup><a href="https://drive.google.com/drive/folders/1eQaYYUuBC2rxhicgW9vKKsXqhsodvo_I?usp=drive_link">DOWNLOAD</a></sup></td>
-
-<tr>
-  <td><sup><b>eTraM </b></sup></td>
-
-  <td><sup><a href="https://drive.google.com/drive/folders/1vW6qgJ_D7oBlEa5tvoCyaMI9FqJdNwF_?usp=drive_link">DOWNLOAD</a></sup></td>
-
-  <td><sup><a href="https://drive.google.com/drive/folders/167ekZOYN_cAhaQ8f8tJwNlRo5V47TU_f?usp=drive_link">DOWNLOAD</a></sup></td>
-  
+  <td align="center"><sup><b>1Mpx/Gen4</b></sup></td>
+  <td align="center"><sup><a href="https://drive.google.com/drive/folders/1lgurYZB8XJwiAlEYyYKBPh5hEvJDYvhQ?usp=drive_link">DOWNLOAD</a></sup></td>
+  <td align="center"><sup><a href="https://drive.google.com/drive/folders/1eQaYYUuBC2rxhicgW9vKKsXqhsodvo_I?usp=drive_link">DOWNLOAD</a></sup></td>
 </tr>
 
+<tr>
+  <td align="center"><sup><b>eTraM</b></sup></td>
+  <td align="center"><sup><a href="https://drive.google.com/drive/folders/1vW6qgJ_D7oBlEa5tvoCyaMI9FqJdNwF_?usp=drive_link">DOWNLOAD</a></sup></td>
+  <td align="center"><sup><a href="https://drive.google.com/drive/folders/167ekZOYN_cAhaQ8f8tJwNlRo5V47TU_f?usp=drive_link">DOWNLOAD</a></sup></td>
+</tr>
 
 </table>
 
