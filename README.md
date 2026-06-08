@@ -260,24 +260,24 @@ The pre-trained models for all datasets are available:
 <table align="center" width="100%" cellpadding="12">
 <tr>
   <th align="center" width="180px"><sup> </sup></th>
-  <th align="center" width="180px"><sup>Ev-DTAD-T</sup></th>
-  <th align="center" width="180px"><sup>Ev-DTAD-B</sup></th>
+  <th align="center" width="280px"><sup>Ev-DTAD-T</sup></th>
+  <th align="center" width="280px"><sup>Ev-DTAD-B</sup></th>
 </tr>
 
 <tr>
-  <td align="center" width="280px"><sup><b>Gen1</b></sup></td>
+  <td align="center" width="180px"><sup><b>Gen1</b></sup></td>
   <td align="center" width="280px"><sup><a href="https://drive.google.com/drive/folders/198BZTdB6ZjwSn81XEqHYZdbNCe_qIMF8?usp=drive_link">DOWNLOAD</a></sup></td>
   <td align="center" width="280px"><sup><a href="https://drive.google.com/drive/folders/1KoiaUeJ1Vk_OK_gdcc6cw4KAEf5kkQ1o?usp=drive_link">DOWNLOAD</a></sup></td>
 </tr>
 
 <tr>
-  <td align="center" width="280px"><sup><b>1Mpx/Gen4</b></sup></td>
+  <td align="center" width="180px"><sup><b>1Mpx/Gen4</b></sup></td>
   <td align="center" width="280px"><sup><a href="https://drive.google.com/drive/folders/1lgurYZB8XJwiAlEYyYKBPh5hEvJDYvhQ?usp=drive_link">DOWNLOAD</a></sup></td>
   <td align="center" width="280px"><sup><a href="https://drive.google.com/drive/folders/1eQaYYUuBC2rxhicgW9vKKsXqhsodvo_I?usp=drive_link">DOWNLOAD</a></sup></td>
 </tr>
 
 <tr>
-  <td align="center" width="280px"><sup><b>eTraM</b></sup></td>
+  <td align="center" width="180px"><sup><b>eTraM</b></sup></td>
   <td align="center" width="280px"><sup><a href="https://drive.google.com/drive/folders/1vW6qgJ_D7oBlEa5tvoCyaMI9FqJdNwF_?usp=drive_link">DOWNLOAD</a></sup></td>
   <td align="center" width="280px"><sup><a href="https://drive.google.com/drive/folders/167ekZOYN_cAhaQ8f8tJwNlRo5V47TU_f?usp=drive_link">DOWNLOAD</a></sup></td>
 </tr>
