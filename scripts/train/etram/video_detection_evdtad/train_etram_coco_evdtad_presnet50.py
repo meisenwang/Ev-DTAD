@@ -10,7 +10,7 @@ N_QUERIES    = 300
 N_DENOISE    = 100
 FOCAL        = True
 BATCH_FIRST  = False
-HYPER_EDGE_NUM = 4
+HYPER_EDGE_NUM = 16
 
 DTYPE         = 'float32'
 INTERPOLATION = 'bilinear'
