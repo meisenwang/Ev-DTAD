@@ -120,7 +120,7 @@ The eTraM Prophesee dataset can be downloaded from
 
 #### 2.2 Dataset Pre-processing
 
-To preprocess the datasets into a HTA format, the `scripts/data/psee_to_htargb.py` script can be used.
+To preprocess the datasets into a HTA format, the `scripts/data/psee_to_hta.py` script can be used.
 
 To pre-process the Gen1 dataset, one can use the following command:
 ```bash
