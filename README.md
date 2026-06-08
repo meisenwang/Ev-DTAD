@@ -305,7 +305,7 @@ This command increases the limit to 2048 file descriptors. You may need to
 increase it to higher values if you increase the number of data workers.
 
 ## 📚 Citation
-If you use ScaleEvent in your research, please use the following BibTeX entry.
+If you use Ev-DTAD in your research, please use the following BibTeX entry.
 
 ```
 @article{wang2026rethinking,
