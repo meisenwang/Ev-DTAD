@@ -338,6 +338,10 @@ ulimit -n 2048
 This command increases the limit to 2048 file descriptors. You may need to
 increase it to higher values if you increase the number of data workers.
 
+### ![image](https://github.com/user-attachments/assets/42c6ae62-1a34-489b-b13a-4e0999d7797c) Acknowledgments
+Thanks to [EvRT-DETR](https://github.com/realtime-intelligence/evrt-detr) projects.
+
+
 ## 📚 Citation
 If you use Ev-DTAD in your research, please use the following BibTeX entry.
 
