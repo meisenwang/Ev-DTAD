@@ -31,7 +31,7 @@
 
 [2026.6.8] Release the model
 
-## ![image](https://github.com/user-attachments/assets/1ae19de2-b18b-4b0d-a206-19f0666757fb) About
+## 🌍 Overview
 Ev-DTAD is a novel event-based object detection framework that combines compact temporal event encoding with temporal-relational feature reasoning. Our approach introduces HTA-RGB, a hierarchical temporal aggregation representation, and FHTF, a frequency-aware hypergraph temporal fusion module, to jointly capture intra-/inter-window event dynamics and high-order feature dependencies.
 
 <p align="center">
