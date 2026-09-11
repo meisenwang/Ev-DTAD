@@ -280,7 +280,7 @@ The pre-trained models for all datasets are available:
 
 <tr>
   <td align="center" width="180px"><sup><b>eTraM</b></sup></td>
-  <td align="center" width="280px"><sup><a href="[https://drive.google.com/drive/folders/1vW6qgJ_D7oBlEa5tvoCyaMI9FqJdNwF_?usp=drive_link](https://drive.google.com/drive/folders/1vW6qgJ_D7oBlEa5tvoCyaMI9FqJdNwF_?usp=sharing)">DOWNLOAD</a></sup></td>
+  <td align="center" width="280px"><sup><a href="https://drive.google.com/drive/folders/1vW6qgJ_D7oBlEa5tvoCyaMI9FqJdNwF_?usp=drive_link">DOWNLOAD</a></sup></td>
   <td align="center" width="280px"><sup><a href="[https://drive.google.com/drive/folders/167ekZOYN_cAhaQ8f8tJwNlRo5V47TU_f?usp=drive_link](https://drive.google.com/drive/folders/167ekZOYN_cAhaQ8f8tJwNlRo5V47TU_f?usp=sharing)">DOWNLOAD</a></sup></td>
 </tr>
 
