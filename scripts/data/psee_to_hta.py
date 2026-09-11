@@ -27,6 +27,15 @@ GEN4_CLASS_NAMES = {
 }
 
 
+# GEN1 matches gen1_final.py; GEN4 and ETRAM retain their existing defaults.
+REPRESENTATION_DEFAULTS = {
+    "gen1": dict(k0=5.0e-6, decay_b=2.0, kmin=1.0e-6, kmax=1.2e-5,
+                 recent_gamma=2.2, recent_floor=0.08),
+    "gen4": dict(k0=1.0e-5, decay_b=3.0, kmin=5.0e-6, kmax=2.0e-5,
+                 recent_gamma=3.5, recent_floor=0.02),
+}
+
+
 @dataclass(frozen=True)
 class DatasetConfig:
     name: str
@@ -708,16 +717,16 @@ def build_parser() -> argparse.ArgumentParser:
     ap.add_argument("--clean_output", action="store_true")
 
     ap.add_argument("--c_event", type=float, default=0.5)
-    ap.add_argument("--k0", type=float, default=1.0e-5)
-    ap.add_argument("--decay_b", type=float, default=3.0)
+    ap.add_argument("--k0", type=float, default=None, help="Default: GEN1 5e-6; GEN4/ETRAM 1e-5.")
+    ap.add_argument("--decay_b", type=float, default=None, help="Default: GEN1 2.0; GEN4/ETRAM 3.0.")
     ap.add_argument("--alpha", type=float, default=1.0)
-    ap.add_argument("--kmin", type=float, default=5.0e-6)
-    ap.add_argument("--kmax", type=float, default=2.0e-5)
+    ap.add_argument("--kmin", type=float, default=None, help="Default: GEN1 1e-6; GEN4/ETRAM 5e-6.")
+    ap.add_argument("--kmax", type=float, default=None, help="Default: GEN1 1.2e-5; GEN4/ETRAM 2e-5.")
     ap.add_argument("--kernel", type=int, default=5)
     ap.add_argument("--activity_tau", type=float, default=4.0)
     ap.add_argument("--state_cap", type=float, default=8.0)
-    ap.add_argument("--recent_gamma", type=float, default=3.5)
-    ap.add_argument("--recent_floor", type=float, default=0.02)
+    ap.add_argument("--recent_gamma", type=float, default=None, help="Default: GEN1 2.2; GEN4/ETRAM 3.5.")
+    ap.add_argument("--recent_floor", type=float, default=None, help="Default: GEN1 0.08; GEN4/ETRAM 0.02.")
     ap.add_argument("--inhibit_beta", type=float, default=0.30)
 
     ap.add_argument("--luma_gain", type=float, default=1.0)
@@ -728,13 +737,23 @@ def build_parser() -> argparse.ArgumentParser:
     return ap
 
 
-def main() -> None:
-    args = build_parser().parse_args()
+def parse_args(argv: Optional[Sequence[str]] = None) -> argparse.Namespace:
+    args = build_parser().parse_args(argv)
     config = DATASET_CONFIGS[args.dataset]
+
+    for name, value in REPRESENTATION_DEFAULTS[config.preprocess_family].items():
+        if getattr(args, name) is None:
+            setattr(args, name, value)
 
     args.sensor_w = config.sensor_w if args.sensor_w is None else int(args.sensor_w)
     args.sensor_h = config.sensor_h if args.sensor_h is None else int(args.sensor_h)
     args.event_suffix = config.event_suffix if args.event_suffix is None else str(args.event_suffix)
+    return args
+
+
+def main() -> None:
+    args = parse_args()
+    config = DATASET_CONFIGS[args.dataset]
 
     src_root = Path(args.src_root)
     out_root = Path(args.out_root)
