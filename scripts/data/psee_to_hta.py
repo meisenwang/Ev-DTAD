@@ -27,7 +27,6 @@ GEN4_CLASS_NAMES = {
 }
 
 
-# GEN1 matches gen1_final.py; GEN4 and ETRAM retain their existing defaults.
 REPRESENTATION_DEFAULTS = {
     "gen1": dict(k0=5.0e-6, decay_b=2.0, kmin=1.0e-6, kmax=1.2e-5,
                  recent_gamma=2.2, recent_floor=0.08),
